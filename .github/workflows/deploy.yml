@@ -3,7 +3,7 @@ name: Publish to GHCR
 # Trigger the workflow on push to the main branch
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 env:
   REGISTRY: ghcr.io
